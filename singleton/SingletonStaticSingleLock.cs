@@ -10,8 +10,8 @@ namespace SingletonPatternUsingStaticSingleLock
         /*
         * we wre using volatile to ensure that assignment to the instance varaible finishes befor it's access.
         */
-        private static volatile SingletonStaticSingleLock Instance ; 
-       private static Object lockObject = new Object();
+        private static volatile SingletonStaticSingleLock Instance = new SingletonStaticSingleLock(); 
+        private static Object lockObject = new Object();
         public static int MyInt = 25;
         /*        
          * Private constructor is used to prevent     

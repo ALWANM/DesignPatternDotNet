@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using SingletonPatternUsingStaticConstructor;
 using SingletonPatternUsingStaticInitialization;
 using SingletonPatternUsingStaticSingleLock;
+using DesignPatterns.singleton;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -13,10 +14,29 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            TestSingletonStaticSingleLock();
-             Console.ReadLine();
+            TestSingletonDelagateWithNoParamter();
+            Console.ReadLine();
+
         }
-         public static void TestSingletonStaticSingleLock()
+        public static void TestSingletonDelagateWithNoParamter()
+        {
+            Console.WriteLine("***Singleton Pattern Demonstration");
+            //SingletonStaticConstructor s = new SingletonStaticConstructor(); // error
+            Console.WriteLine($"trying to get a singleton instance, called firstInstance.");
+            SingletonDelagateWithNoParamter firstInstance = SingletonDelagateWithNoParamter.GetInstance;
+            Console.WriteLine($"trying to get a another singleton instance, called secondInstance.");
+            SingletonDelagateWithNoParamter secondInstance = SingletonDelagateWithNoParamter.GetInstance;
+            if (firstInstance.Equals(secondInstance))
+            {
+                Console.WriteLine("The FirstInsatnce and secondInstance are the Same.");
+            }
+            else
+            {
+                Console.WriteLine("Different instances exist.");
+            } 
+        }
+
+        public static void TestSingletonStaticSingleLock()
         {
             Console.WriteLine("***Singleton Pattern Demonstration");
             //SingletonStaticConstructor s = new SingletonStaticConstructor(); // error
