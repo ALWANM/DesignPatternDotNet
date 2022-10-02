@@ -1,0 +1,15 @@
+/Users/marwanalwan/Documents/DesignPatterns/bin/Debug/net6.0/DesignPatterns
+/Users/marwanalwan/Documents/DesignPatterns/bin/Debug/net6.0/DesignPatterns.deps.json
+/Users/marwanalwan/Documents/DesignPatterns/bin/Debug/net6.0/DesignPatterns.runtimeconfig.json
+/Users/marwanalwan/Documents/DesignPatterns/bin/Debug/net6.0/DesignPatterns.dll
+/Users/marwanalwan/Documents/DesignPatterns/bin/Debug/net6.0/DesignPatterns.pdb
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/DesignPatterns.csproj.AssemblyReference.cache
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/DesignPatterns.AssemblyInfoInputs.cache
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/DesignPatterns.AssemblyInfo.cs
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/DesignPatterns.csproj.CoreCompileInputs.cache
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/DesignPatterns.dll
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/refint/DesignPatterns.dll
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/DesignPatterns.pdb
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/DesignPatterns.genruntimeconfig.cache
+/Users/marwanalwan/Documents/DesignPatterns/obj/Debug/net6.0/ref/DesignPatterns.dll
