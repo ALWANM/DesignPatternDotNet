@@ -1,9 +1,4 @@
-﻿using System.Reflection.Metadata;
-using System;
-using System.Text.RegularExpressions;
-using System.Collections;
-using System.Collections.Generic;
-using SingletonPatternUsingStaticConstructor;
+﻿using SingletonPatternUsingStaticConstructor;
 using SingletonPatternUsingStaticInitialization;
 using SingletonPatternUsingStaticSingleLock;
 using DesignPatterns.singleton;
@@ -14,7 +9,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            TestSingletonDelagateWithNoParamter();
+            TestSingletonDelagateWithNoParamter(); 
             Console.ReadLine();
 
         }
